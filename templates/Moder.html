@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/user.css">
+    <style>
+    body {
+    background-color: #008B8B;
+    }
+  </style>
+</head>
+<body>
+<h1 align="center">Меню</h1>
+<a href="{% url 'Orgs' %}">
+    <p align="left">Back</p>
+</a>
+<a href="{% url 'index'%}">
+<p align="right">Log Out</p>
+</a>
+<a href="{% url 'addOrg' %}"><p align="center">Добавить организацию</p></a>
+<a href="{% url 'addEmp' %}"><p align="center">Добавить сотрудника</p></a>
+<a href="{% url 'addVac' %}"><p align="center">Добавить отпуск</p></a>
+</body>
+</html>

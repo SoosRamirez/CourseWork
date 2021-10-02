@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/user.css">
+    <style>
+    body {
+    background-color: #008B8B;
+    }
+  </style>
+</head>
+<body>
+<h1 align="center">Сотрудник</h1>
+<a href="{% url 'Orgs' %}">
+    <p align="left">Back</p>
+</a>
+<a href="{% url 'index'%}">
+<p align="right">Log Out</p>
+</a>
+{% for i in Users %}
+<p>Имя - {{i.name}}<br>Фамилия - {{i.surname}}<br>Отчество - {{i.sec_name}}<br>День рождения - {{i.birthday}}<br>Логин - {{i.login}}<br>{{i.start}}</p>
+<a href="{% url 'vacation' i.id %}">
+    <p>Посмотреть отпуска</p>
+</a>
+{% endfor %}
+</body>
+</html>

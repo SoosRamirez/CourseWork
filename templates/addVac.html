@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/addVac.css">
+    <style>
+    body {
+    background-color: #008B8B;
+    }
+  </style>
+</head>
+<body>
+<h1 align="center">Добавить отпуск</h1>
+<a href="{% url 'Orgs' %}">
+    <p align="left">Back</p>
+</a>
+<a href="{% url 'index'%}">
+<p align="right">Log Out</p>
+</a>
+<form action="" method="post">
+    <p align="left"><b>ID сотрудника</b><br>
+        <input type="text" size="40" name="id">
+    </p>
+    <p align="left"><b>Дата окончания</b><br>
+        <input type="text" size="40" name="end">
+    </p>
+    <p align="left"><b>Дата начала</b><br>
+        <input type="text" size="40" name="start">
+    </p>
+    <p align="left"><b>продолжительность</b><br>
+        <input type="text" size="40" name="long">
+    </p>
+    <p align="left"><b>тип</b><br>
+        <input type="text" size="40" name="type">
+    </p>
+
+    <p align="left">
+        <input type="submit" value="Submit">
+    </p>
+</form>
+</body>
+</html>

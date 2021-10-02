@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% load static %}
+    <link rel="stylesheet" href="../static/emplist.css">
+    <style>
+        body {
+            background-color: #008B8B;
+        }
+    </style>
+</head>
+<body>
+<h1 align="center">Список Сотрудников </h1>
+<a href="{% url 'Orgs'%}">
+    <p align="left">Back</p>
+</a>
+<a href="{% url 'index'%}">
+    <p align="right">Log Out</p>
+</a>
+{% for i in Users %}
+<a href="{% url 'user' i.id %}">
+<p>Имя - {{i.name}}<br>Фамилия - {{i.surname}}<br>Отчество - {{i.sec_name}}</p>
+</a>
+{% endfor %}
+
+</body>
+</html>

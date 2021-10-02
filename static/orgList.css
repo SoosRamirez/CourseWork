@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700,900&subset=cyrillic");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i&subset=cyrillic');
+
+@keyframes header_anim {
+  from {
+    transform: translateX(-120%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-color:#008B8B;
+}
+h1 {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-size: 4em;
+  font-weight: 700;
+}
+p {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+}
+orgs {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+}

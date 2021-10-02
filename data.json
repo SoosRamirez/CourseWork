@@ -1,0 +1,237 @@
+{
+  "Organisations": [
+    {
+      "idorg": "100",
+      "name": "Lukoil",
+      "startdate": "24.05.1873",
+      "description": "Fuel company",
+      "adress": "Moscow, Russia",
+      "boss": [
+        {
+          "name": "Petr",
+          "surname": "Petrov",
+          "sec_name": "Petrovich",
+          "birthday": "02.02.1986"
+        }
+      ]
+    },
+    {
+      "idorg": "jfdgyu",
+      "name": "gseukyj",
+      "startdate": "lieu",
+      "description": "jwkreg",
+      "adress": "wkueryg",
+      "boss": {
+        "surname": "fdjky",
+        "named": "wkjherg",
+        "sec_name": "wekjyg",
+        "birthday": "ewkuyfg"
+      }
+    },
+    {
+      "idorg": null,
+      "name": null,
+      "startdate": null,
+      "description": null,
+      "adress": null,
+      "boss": {
+        "surname": null,
+        "named": null,
+        "sec_name": null,
+        "birthday": null
+      }
+    },
+    {
+      "idorg": "jhvkbhke",
+      "name": "xtfcghvjkbk",
+      "startdate": "fcgjhvjkhb",
+      "description": "rtytvb",
+      "adress": "rtcuytvbjh",
+      "boss": {
+        "surname": "drytfuyg",
+        "named": "ctufgvhb",
+        "sec_name": "erytcuvb",
+        "birthday": "rtyuvb"
+      }
+    },
+    {
+      "idorg": null,
+      "name": null,
+      "startdate": null,
+      "description": null,
+      "adress": null,
+      "boss": {
+        "surname": null,
+        "named": null,
+        "sec_name": null,
+        "birthday": null
+      }
+    },
+    {
+      "idorg": null,
+      "name": null,
+      "startdate": null,
+      "description": null,
+      "adress": null,
+      "boss": {
+        "surname": null,
+        "named": null,
+        "sec_name": null,
+        "birthday": null
+      }
+    },
+    {
+      "idorg": null,
+      "name": null,
+      "startdate": null,
+      "description": null,
+      "adress": null,
+      "boss": {
+        "surname": null,
+        "named": null,
+        "sec_name": null,
+        "birthday": null
+      }
+    }
+  ],
+  "Users": [
+    {
+      "id": "1",
+      "job": "Accountant",
+      "surname": "Ivanov",
+      "name": "Ivan",
+      "sec_name": "Ivanovich",
+      "birthday": "01.01.1984",
+      "login": "user_1",
+      "password": "1234",
+      "idorg": "100"
+    },
+    {
+      "id": "2",
+      "job": "Boss",
+      "surname": "Petrov",
+      "name": "Petr",
+      "sec_name": "Petrovich",
+      "birthday": "02.02.1986",
+      "login": "user_2",
+      "password": "4321",
+      "idorg": "100"
+    },
+    {
+      "id": "iurbg",
+      "name": "qergukb",
+      "job": "iwuekbgr",
+      "surname": "qejryghb",
+      "sec_name": "ergbq",
+      "birthday": "eurkgjw",
+      "idorg": "qkjrbe",
+      "login": "weroigkjb",
+      "password": "weigh"
+    },
+    {
+      "id": null,
+      "name": null,
+      "job": null,
+      "surname": null,
+      "sec_name": null,
+      "birthday": null,
+      "idorg": null,
+      "login": null,
+      "password": null
+    }
+  ],
+  "Vacations": [
+    {
+      "id": "1",
+      "start": "27.01.2020",
+      "end": "29.01.2020",
+      "long": "3",
+      "type": "paid"
+    },
+    {
+      "id": [
+        null
+      ],
+      "start": [
+        null
+      ],
+      "end": [
+        null
+      ],
+      "long": [
+        null
+      ],
+      "type": [
+        null
+      ]
+    },
+    {
+      "id": [
+        null
+      ],
+      "start": [
+        null
+      ],
+      "end": [
+        null
+      ],
+      "long": [
+        null
+      ],
+      "type": [
+        null
+      ]
+    },
+    {
+      "id": [
+        null
+      ],
+      "start": [
+        null
+      ],
+      "end": [
+        null
+      ],
+      "long": [
+        null
+      ],
+      "type": [
+        null
+      ]
+    },
+    {
+      "id": [
+        null
+      ],
+      "start": [
+        null
+      ],
+      "end": [
+        null
+      ],
+      "long": [
+        null
+      ],
+      "type": [
+        null
+      ]
+    },
+    {
+      "id": [
+        null
+      ],
+      "start": [
+        null
+      ],
+      "end": [
+        null
+      ],
+      "long": [
+        null
+      ],
+      "type": [
+        null
+      ]
+    }
+  ]
+}

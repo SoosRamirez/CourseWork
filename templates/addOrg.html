@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/addOrg.css">
+    <style>
+        body {
+            background-color: #008B8B;
+        }
+    </style>
+</head>
+<body>
+<h1 align="center">Добавить организацию</h1>
+<a href="{% url 'Orgs'%}">
+    <p align="left">Back</p>
+</a>
+<a href="{% url 'index'%}">
+    <p align="right">Log Out</p>
+</a>
+<form action="" method="post">
+    <p align="left"><b>ID организации</b><br>
+        <input type="text" size="40" name="idorg">
+    </p>
+    <p align="left"><b>Название</b><br>
+        <input type="text" size="40" name="name">
+    </p>
+    <p align="left"><b>Дата основания</b><br>
+        <input type="text" size="40" name="startdate">
+    </p>
+    <p align="left"><b>Описание</b><br>
+        <input type="text" size="40" name="description">
+    </p>
+    <p align="left"><b>Адрес</b><br>
+        <input type="text" size="40" name="adress">
+    </p>
+    <p align="left"><b>Фамилия директора</b><br>
+        <input type="text" size="40" name="surname">
+    </p>
+    <p align="left"><b>Имя</b><br>
+        <input type="text" size="40" name="named">
+    </p>
+    <p align="left"><b>Отчество</b><br>
+        <input type="text" size="40" name="sec_name">
+    </p>
+    <p align="left"><b>Дата рождения</b><br>
+        <input type="text" size="40" name="birthday">
+    </p>
+    <p align="left">
+        <input type="submit" value="Submit">
+    </p>
+</form>
+</body>
+</html>

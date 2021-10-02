@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% load static %}
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/orgList.css">
+    <style>
+        body {
+            background-color: #008B8B;
+        }
+    </style>
+</head>
+<body>
+<h1 align="center">Список организаций</h1>
+<a href="{% url 'index'%}">
+    <p align="right">Log Out</p>
+</a>
+{% for i in Organisations %}
+<a href="{% url 'Emps' i.idorg %}">
+    <p class="orgs">{{i.name}}</p>
+</a>
+{% endfor %}
+
+
+</body>
+</html>

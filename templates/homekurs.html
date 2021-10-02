@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    {% load static %}
+    <title>Authorization</title>
+    <link rel="stylesheet" href="../static/homekurs.css">
+    <style>
+        body {
+            background-color: #008B8B;
+        }
+    </style>
+</head>
+<body>
+<form action="" method="POST">{% csrf_token %}
+    <header>
+        <h1 align="center">Authorisation</h1>
+    </header>
+    <p align="center"><b>Login</b><br>
+        <input type="text" size="40" name="login">
+    </p>
+    <p align="center"><b>Password</b><br>
+        <input type="text" size="40" name="password">
+    </p>
+    <p align="center">
+        <input type="submit" value="Submit">
+    </p>
+</form>
+</body>
+</html>
